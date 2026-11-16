@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khung hình nền 9:16</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #1a1a1a;
+        }
+        .bg-container {
+            width: 100%;
+            max-width: 405px;
+            aspect-ratio: 9 / 16;
+            background-image: url('https://i.ibb.co/RT1PqysX/IMG-9495.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+        }
+        .content {
+            padding: 20px;
+            color: #ffffff;
+            font-family: sans-serif;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+        <div class="content">
+            <h2>Xin chào!</h2>
+        </div>
+    </div>
+</body>
+</html>
